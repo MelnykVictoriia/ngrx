@@ -4,7 +4,7 @@ import { Article } from '../../classes/article';
 import { IAction } from '../../interfaces/action';
 
 export interface ArticleState {
-    articles: Article[];
+    articles: any;
 };
 export const initialState : ArticleState = {
     articles: [],
