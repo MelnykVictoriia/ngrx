@@ -1,0 +1,12 @@
+<!-- Post -->
+<div class="post">
+    <div class="user-block">
+        <h3>{{ article.title }}</h3>
+        <div>{{ time }}</div>
+    </div>
+    <a href="article.link" target="_blank">
+    ({{ article.link }})
+</a>
+    <app-vote-list [points]='article.points' (upvote)='upvote()' (downvote)='downvote()'></app-vote-list>
+    <hr />
+</div>

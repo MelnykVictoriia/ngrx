@@ -1,0 +1,7 @@
+export const LOAD_ARTICLES = 'reddit/LOAD_ARTICLES';
+
+export const ADD_ARTICLE = 'reddit/ADD_ARTICLE';
+
+export const INCREMENT_ARTICLE_POINT = 'reddit/INCREMENT_ARTICLE_POINT';
+
+export const DECREMENT_ARTICLE_POINT = 'reddit/DECREMENT_ARTICLE_POINT';
